@@ -28,4 +28,4 @@ with tabs[2]:
 # Tab 4:
 with tabs[3]:
     st.subheader("Chart")
-    st.scatter_chart(df, x='Volume',y='Price')
+    st.scatter_chart(df, x='Volume',y='Close')
