@@ -28,4 +28,4 @@ with tabs[2]:
 # Tab 4:
 with tabs[3]:
     st.subheader("Chart")
-    st.line_chart(df[['Close','Volume']])
+    st.area_chart(df['Close'])
