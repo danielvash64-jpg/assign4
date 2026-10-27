@@ -26,4 +26,7 @@ with tabs[2]:
     st.subheader(f"Volume for MSFT")
     st.bar_chart(df['Volume'])
 # Tab 4:
-print('name')
+with tabs[3]:
+    st.subheader("Line chart of volume for MSFT")
+    st.line_chart(df['Volume'])
+
